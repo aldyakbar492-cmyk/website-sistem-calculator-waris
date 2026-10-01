@@ -13,8 +13,8 @@ export default function Hero() {
           </h1>
           <p className="hero-subtitle">Pelajari edukasi waris modern dan hitung pembagian harta secara praktis, jelas, dan mudah dipahami — sesuai hukum Islam & perdata Indonesia.</p>
           <div className="hero-actions">
-            <a href="#edukasi" className="btn-primary">Belajar Dulu</a>
-            <a href="#kalkulator" className="btn-outline">Hitung Warisan →</a>
+            <a href="#/edukasi" className="btn-primary">Belajar Dulu</a>
+            <a href="#/kalkulator" className="btn-outline">Hitung Warisan →</a>
           </div>
           <div className="hero-stats">
             <div className="stat-item">

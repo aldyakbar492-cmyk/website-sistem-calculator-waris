@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import { dataEdukasi } from "../data/educationData";
 import ChapterSections from "./ChapterSections";
 
-// Tampilan E-Book: daftar isi di kiri, seluruh bab berurutan di kanan.
-export default function EbookView({ onBack }) {
+// Halaman E-Book (#/baca, dibuka di tab baru): daftar isi di kiri, seluruh bab berurutan di kanan.
+export default function EbookView() {
   const [activeChapter, setActiveChapter] = useState(null);
   const chapterRefs = useRef([]);
 
@@ -30,7 +30,7 @@ export default function EbookView({ onBack }) {
   return (
     <div id="viewEbook">
       <div className="ebook-header">
-        <button className="btn-back-grid" id="btnBackGrid" onClick={onBack}>
+        <button className="btn-back-grid" id="btnBackGrid" onClick={() => (window.location.hash = "#/edukasi")}>
           ← Kembali ke Menu Bab
         </button>
         <div>

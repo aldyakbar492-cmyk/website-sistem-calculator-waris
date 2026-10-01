@@ -5,34 +5,34 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <a href="#beranda" className="nav-logo footer-logo">
+            <a href="#/" className="nav-logo footer-logo">
               <span className="logo-text">Waris<span className="logo-accent">Modern</span></span>
             </a>
             <p>Platform edukasi dan kalkulator waris digital Indonesia. Membantu keluarga memahami dan menyelesaikan pembagian harta peninggalan secara adil, transparan, dan sesuai hukum.</p>
             <div className="footer-socials">
               <a href="https://Facebook.com/Aldy Akbar" className="social-btn" aria-label="Facebook"><i className="bi bi-facebook"></i></a>
               <a href="https://instagram.com/aldyyy_akbar" className="social-btn" aria-label="Instagram"><i className="bi bi-instagram"></i></a>
-              <a href="#" className="social-btn" aria-label="Twitter"><i className="bi bi-twitter-x"></i></a>
+              <a href="#" className="social-btn" aria-label="Twitter" onClick={(e) => e.preventDefault()}><i className="bi bi-twitter-x"></i></a>
             </div>
           </div>
           <div className="footer-col">
             <h4>Navigasi</h4>
             <ul>
-              <li><a href="#beranda">Beranda</a></li>
-              <li><a href="#edukasi">Materi Edukasi</a></li>
-              <li><a href="#kalkulator">Kalkulator Waris</a></li>
-              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#/">Beranda</a></li>
+              <li><a href="#/edukasi">Materi Edukasi</a></li>
+              <li><a href="#/kalkulator">Kalkulator Waris</a></li>
+              <li><a href="#/faq">FAQ</a></li>
             </ul>
           </div>
           <div className="footer-col">
             <h4>Topik Edukasi</h4>
             <ul>
-              <li><a href="#">Hukum Waris Islam</a></li>
-              <li><a href="#">Hukum Waris Perdata</a></li>
-              <li><a href="#">Ahli Waris & Porsi</a></li>
-              <li><a href="#">Wasiat & Hibah</a></li>
-              <li><a href="#">Sengketa Waris</a></li>
-              <li><a href="#">Aset Digital & Kripto</a></li>
+              <li><a href="#/edukasi">Hukum Waris Islam</a></li>
+              <li><a href="#/edukasi">Hukum Waris Perdata</a></li>
+              <li><a href="#/edukasi">Ahli Waris & Porsi</a></li>
+              <li><a href="#/edukasi">Wasiat & Hibah</a></li>
+              <li><a href="#/edukasi">Sengketa Waris</a></li>
+              <li><a href="#/edukasi">Aset Digital & Kripto</a></li>
             </ul>
           </div>
           <div className="footer-col">
