@@ -10,7 +10,7 @@ import PorsiTable from "./components/PorsiTable";
 import FAQ from "./components/FAQ";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
-
+import './styles.css'
 // Setiap menu navbar adalah halaman sendiri:
 //   #/            Beranda     → Hero, Kenapa Penting, CTA
 //   #/edukasi     Edukasi     → 9 kartu materi + Tabel Porsi
